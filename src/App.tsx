@@ -1,18 +1,23 @@
 import { defineComponent, ref } from "vue";
+import { RouterView } from "vue-router";
 
 export const App = defineComponent({
   setup() {
-    const refCount = ref(0)
-    const onClick = () => {
-      refCount.value += 1
-    }
     return () => <>
+      <header>Nav
+        <ul>
+          <li>
+            <router-link to="/">Foo</router-link>
+          </li>
+          <li>
+            <router-link to="/bar">Bar</router-link>
+          </li>
+        </ul>
+      </header>
       <div>
-        {refCount.value}
+        <RouterView/>
       </div>
-      <div>
-        <button onClick={onClick}>+1</button>
-      </div>
+      <footer>Footer</footer>
     </>
   }
 })
