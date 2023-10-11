@@ -7,8 +7,8 @@ export const First = defineComponent({
     return () => (
       <div class={s.wrapper}>
         <div class={s.card}>
-          <img class={s.pig} src={pig} />
-          <h2>Earn Smart<br/>Save Smart</h2>
+          <img src={pig} />
+          <h2>Earn Smart<br />Save Smart</h2>
         </div>
         <div class={s.actions}>
           <RouterLink class={s.fake} to="/welcome/1">Skip</RouterLink>
