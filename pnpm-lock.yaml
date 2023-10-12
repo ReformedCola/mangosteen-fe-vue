@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   sass:
-    specifier: ^1.69.1
-    version: 1.69.1
+    specifier: 1.49.11
+    version: 1.49.11
   vue:
     specifier: 3.2.31
     version: 3.2.31
@@ -27,7 +27,7 @@ devDependencies:
     version: 4.6.3
   vite:
     specifier: 2.9.1
-    version: 2.9.1(sass@1.69.1)
+    version: 2.9.1(sass@1.49.11)
   vue-tsc:
     specifier: 0.29.8
     version: 0.29.8(typescript@4.6.3)
@@ -418,7 +418,7 @@ packages:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.1(sass@1.69.1)
+      vite: 2.9.1(sass@1.49.11)
       vue: 3.2.31
     dev: true
 
@@ -1371,9 +1371,9 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /sass@1.69.1:
-    resolution: {integrity: sha512-nc969GvTVz38oqKgYYVHM/Iq7Yl33IILy5uqaH2CWSiSUmRCvw+UR7tA3845Sp4BD5ykCUimvrT3k1EjTwpVUA==}
-    engines: {node: '>=14.0.0'}
+  /sass@1.49.11:
+    resolution: {integrity: sha512-wvS/geXgHUGs6A/4ud5BFIWKO1nKd7wYIGimDk4q4GFkJicILActpv9ueMT4eRGSsp1BdKHuw1WwAHXbhsJELQ==}
+    engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
@@ -1457,7 +1457,7 @@ packages:
       picocolors: 1.0.0
     dev: true
 
-  /vite@2.9.1(sass@1.69.1):
+  /vite@2.9.1(sass@1.49.11):
     resolution: {integrity: sha512-vSlsSdOYGcYEJfkQ/NeLXgnRv5zZfpAsdztkIrs7AZHV8RCMZQkwjo4DS5BnrYTqoWqLoUe1Cah4aVO4oNNqCQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
@@ -1477,7 +1477,7 @@ packages:
       postcss: 8.4.31
       resolve: 1.22.6
       rollup: 2.77.3
-      sass: 1.69.1
+      sass: 1.49.11
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
